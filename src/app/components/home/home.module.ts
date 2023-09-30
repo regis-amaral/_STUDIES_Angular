@@ -9,7 +9,9 @@ import { HomeComponent } from './home.component';
     HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeModule
   ]
+  // não preciso exportar
 })
 export class HomeModule { }
